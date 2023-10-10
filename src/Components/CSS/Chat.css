@@ -1,0 +1,56 @@
+.background{
+
+    background-color: palevioletred;
+}
+.h1{
+    text-align: center;
+    color: yellow;
+}
+.div{
+    text-align: center;
+    background-color: rgb(155, 192, 22);
+}
+.chat{
+    border-radius: 10px;
+    height: 500px;
+    overflow-y: scroll ;
+}
+.Container{
+    padding: 5%;
+}
+.bottom{
+    margin-top: 10px;
+    margin-left: 50%;
+    height: 50px;
+    width: 100%;
+}
+.send{
+    color: orange;
+    background-color: rgb(185, 65, 185);
+    margin-left: 10px;
+    border-radius: 10%;
+    height: 55px;
+    width: 60px;
+}
+.chatbox{
+    border: red;
+    border-radius: 10px;
+    height: 50px;
+    width: 40%;
+    text-align: center;
+}
+.bot{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.user{
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.name{
+    text-align: center;
+    width: 5%;
+  
+}
