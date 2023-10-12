@@ -38,6 +38,7 @@
     text-align: center;
 }
 .bot{
+    text-align: left;
     background-color: rgb(155, 192, 22);
     margin-left: 30px;
     width: 20%;
