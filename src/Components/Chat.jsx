@@ -75,7 +75,6 @@ function Chat() {
   }, [showchat]);
   return (
     <div className="background">
-
       <button onClick={logOut}>Đăng xuất</button>
         <h1 className="h1">Chat Bot</h1>
       <Container className="Container">
@@ -85,7 +84,9 @@ function Chat() {
             showchat.map((showchat, index) => (
               <div className="div" key={index}>
                 <div className="user">
-                  <h3>{showchat.question}</h3>
+                  <h3></h3>
+                  <h3></h3>
+                  <h3 className="h3">{showchat.question}</h3>
                 </div>
                 <div className="bot">
                   <h3>{showchat.response}</h3>
